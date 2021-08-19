@@ -1,6 +1,8 @@
-module.exports = {
-   // mongoURI: 'mongodb://localhost/test_app' 
+require("dotenv").config();
 
-   // changed db name from: getircase-study to getir-case-study
-   mongoURI: 'mongodb+srv://challengeUser:WUMglwNBaydH8Yvu@challenge-xzwqd.mongodb.net/getir-case-study?retryWrites=true' 
-}
+module.exports = {
+  // mongoURI: 'mongodb://localhost/test_app'
+
+  // changed db name from: getircase-study to getir-case-study
+  mongoURI: process.env.MONGO_URL,
+};
