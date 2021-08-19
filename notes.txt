@@ -1,0 +1,15 @@
+// This file contains notes on the application.
+
+// Requirement
+1. Testing using jest
+2. fetching data from mongodb
+
+// Checklist
+1. .env file must be updated to production.
+2. validity of the input parameters. - Dione
+3. Prettier - not working - to check
+4. startDate < endata, same with minCount < maxCount
+5. Check client error resp no 400?  exact no.
+
+Notes:
+in the mongodb link change is made to db name: getircase-study => getir-case-study
